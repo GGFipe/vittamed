@@ -1,0 +1,6 @@
+# Pastas de compilação
+[Bb]in/
+[Oo]bj/
+
+# Pastas com arquivos de máquina local
+.vs/

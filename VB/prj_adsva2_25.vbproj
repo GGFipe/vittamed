@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8992813A-6A9A-4D8E-BB90-2711F3464079}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>prj_adsva2_25.My.MyApplication</StartupObject>
+    <RootNamespace>prj_adsva2_25</RootNamespace>
+    <AssemblyName>prj_adsva2_25</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>prj_adsva2_25.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>prj_adsva2_25.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm_agendas.Designer.vb">
+      <DependentUpon>frm_agendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_agendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cad_usuario.Designer.vb">
+      <DependentUpon>frm_cad_usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cad_usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consulta_prontuarios.Designer.vb">
+      <DependentUpon>frm_consulta_prontuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_consulta_prontuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_intermeio_gerente.Designer.vb">
+      <DependentUpon>frm_intermeio_gerente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_intermeio_gerente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_intermeio_medico.Designer.vb">
+      <DependentUpon>frm_intermeio_medico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_intermeio_medico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_intermeio_recepcionista.Designer.vb">
+      <DependentUpon>frm_intermeio_recepcionista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_intermeio_recepcionista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_pacientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_pacientes.Designer.vb">
+      <DependentUpon>frm_pacientes.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_cad_equipamentos.Designer.vb">
+      <DependentUpon>frm_cad_equipamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_cad_equipamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_prontuario.Designer.vb">
+      <DependentUpon>frm_prontuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_prontuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_consulta_equipa.Designer.vb">
+      <DependentUpon>frm_consulta_equipa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_consulta_equipa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.vb">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mod_geral.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm_agendas.resx">
+      <DependentUpon>frm_agendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cad_usuario.resx">
+      <DependentUpon>frm_cad_usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_consulta_prontuarios.resx">
+      <DependentUpon>frm_consulta_prontuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_intermeio_gerente.resx">
+      <DependentUpon>frm_intermeio_gerente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_intermeio_medico.resx">
+      <DependentUpon>frm_intermeio_medico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_intermeio_recepcionista.resx">
+      <DependentUpon>frm_intermeio_recepcionista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_pacientes.resx">
+      <DependentUpon>frm_pacientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_cad_equipamentos.resx">
+      <DependentUpon>frm_cad_equipamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_prontuario.resx">
+      <DependentUpon>frm_prontuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_consulta_equipa.resx">
+      <DependentUpon>frm_consulta_equipa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VittaMed-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
