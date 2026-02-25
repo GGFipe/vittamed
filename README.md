@@ -12,3 +12,7 @@ Humberto Luiz de Toledo
 
 Programadores: 
 Felipe Gabriel Garcia, Leonardo Macimiano e Pedro Henrique Santos Silva
+
+## Falhas
+Múltiplas telas são exibidas. A tela anterior não é fechada.
+
