@@ -11,6 +11,4 @@ Professor Orientador:
 Humberto Luiz de Toledo
 
 Programadores: 
-Felipe Gabriel Garcia
-Leonardo Macimiano
-Pedro Henrique Santos Silva
+Felipe Gabriel Garcia, Leonardo Macimiano e Pedro Henrique Santos Silva
