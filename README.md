@@ -3,7 +3,9 @@ Este é o projeto da Vittamed produzido entre abril e junho de 2025 para o segun
 
 ## Ferramenta
 Área: Full Stack
+
 Paradigma: Programação Orientada a Eventos.
+
 Ele foi escrito em Visual Basic.NET Core, usando-se o framework Windows Forms App .NET Forms (versão 4.7.2) e a IDE Visual Studio 2022.
 
 ## Créditos
